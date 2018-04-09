@@ -1,23 +1,23 @@
 .spell-card.aeromancy .card-bg { fill: Silver; }
 .spell-card.aeromancy .label-text { fill: MintCream; }
 
-.spell-card.divination .card-bg { fill: MediumPurple; }
+.spell-card.divination .card-bg { fill: Orchid; }
 .spell-card.divination .label-text { fill: DarkViolet; }
 
 .spell-card.druidism .card-bg { fill: LightGreen; }
 .spell-card.druidism .label-text { fill: ForestGreen; }
 
 .spell-card.necromancy .card-bg { fill: LightSlateGray; }
-.spell-card.necromancy .label-text { fill: DarkSlateGray; }
+.spell-card.necromancy .label-text { fill: Black; }
 
 .spell-card.geomancy .card-bg { fill: IndianRed; }
-.spell-card.geomancy .label-text { fill: FireBrick; }
+.spell-card.geomancy .label-text { fill: DarkRed; }
 
 .spell-card.sorcery .card-bg { fill: SteelBlue; }
 .spell-card.sorcery .label-text { fill: PaleTurquoise; }
 
 .spell-card.thaumaturgy .card-bg { fill: Khaki; }
-.spell-card.thaumaturgy .label-text { fill: GoldenRod; }
+.spell-card.thaumaturgy .label-text { fill: DarkGoldenRod; }
 
 .content-bg {
   fill: white;
