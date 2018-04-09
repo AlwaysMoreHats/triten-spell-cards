@@ -1,0 +1,76 @@
+.spell-card.aeromancy { background-color: AliceBlue; }
+.spell-card.aeromancy .school, .spell-card.aeromancy .box-title { color: CornflowerBlue; }
+
+.spell-card.divination { background-color: MediumPurple; }
+.spell-card.divination .school, .spell-card.divination .box-title { color: DarkViolet; }
+
+.spell-card.druidism { background-color: LightGreen; }
+.spell-card.druidism .school, .spell-card.druidism .box-title { color: ForestGreen; }
+
+.spell-card.necromancy { background-color: LightSlateGray; }
+.spell-card.necromancy .school, .spell-card.necromancy .box-title { color: DarkSlateGray; }
+
+.spell-card.geomancy { background-color: IndianRed; }
+.spell-card.geomancy .school, .spell-card.geomancy .box-title { color: FireBrick; }
+
+.spell-card.sorcery { background-color: SteelBlue; }
+.spell-card.sorcery .school, .spell-card.sorcery .box-title { color: Navy; }
+
+.spell-card.thaumaturgy { background-color: Khaki; }
+.spell-card.thaumaturgy .school, .spell-card.thaumaturgy .box-title { color: GoldenRod; }
+
+html { font-size: 10px }
+
+.box-title {
+  font-weight: bold;
+  font-size: .9rem;
+}
+
+.school {
+  font-weight: bolder;
+  font-size: 2.5rem;
+  vertical-align: bottom;
+  margin-top: 1.2rem;
+}
+
+.pg .content { font-size: 1.0rem; }
+
+.content {
+  border: .1rem gray solid;
+  background-color: white;
+  padding: .2rem;
+}
+
+.effect .content {
+  height: 48.8rem;
+  padding: 1.0rem;
+}
+
+.mem .content { height: 1.4rem; }
+.pg .content { height: 1.4rem; }
+
+.spell-card {
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  grid-gap: 1rem;
+  grid-auto-rows: 3.4rem;
+  width: 50rem;
+  height: 70rem;
+  padding: 1.4rem;
+}
+
+/* column spans */
+.name, .school { grid-column: 1 / 19; }
+.range, .target { grid-column: 1 / 11; }
+.duration, .defense { grid-column: 11 / 21; }
+.effect { grid-column: 1 / 21; }
+.mp, .mem, .memorized { grid-column: 19; }
+.level, .lv, .page, .pg { grid-column: 20; }
+
+/* row spans */
+.name, .mp, .level, .lv { grid-row: 1; }
+.range, .duration { grid-row: 2; }
+.target, .defense { grid-row: 3; }
+.effect { grid-row: 4 / 16; }
+.school, .mem, .memorized, .page, .pg { grid-row: 16; }
+

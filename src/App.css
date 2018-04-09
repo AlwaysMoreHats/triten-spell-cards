@@ -1,0 +1,47 @@
+.spell-card.aeromancy .card-bg { fill: Silver; }
+.spell-card.aeromancy .label-text { fill: MintCream; }
+
+.spell-card.divination .card-bg { fill: MediumPurple; }
+.spell-card.divination .label-text { fill: DarkViolet; }
+
+.spell-card.druidism .card-bg { fill: LightGreen; }
+.spell-card.druidism .label-text { fill: ForestGreen; }
+
+.spell-card.necromancy .card-bg { fill: LightSlateGray; }
+.spell-card.necromancy .label-text { fill: DarkSlateGray; }
+
+.spell-card.geomancy .card-bg { fill: IndianRed; }
+.spell-card.geomancy .label-text { fill: FireBrick; }
+
+.spell-card.sorcery .card-bg { fill: SteelBlue; }
+.spell-card.sorcery .label-text { fill: PaleTurquoise; }
+
+.spell-card.thaumaturgy .card-bg { fill: Khaki; }
+.spell-card.thaumaturgy .label-text { fill: GoldenRod; }
+
+.content-bg {
+  fill: white;
+  rx: 5px;
+  ry: 5px;
+}
+.name {
+  font-family: serif;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+}
+
+.label-text {
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.effect .content-text {
+  font-size: 10px;
+  line-height: 13px;
+}
+
+.school .label-text {
+  letter-spacing: inherit
+}
+
+svg {margin: 15px}
