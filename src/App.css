@@ -19,11 +19,20 @@
 .spell-card.thaumaturgy .card-bg { fill: #f5de8d; }
 .spell-card.thaumaturgy .label-text { fill: #cb8427; }
 
+svg {
+  margin: 1px 1px -3px 1px;
+}
+
+@media print {
+  .hide-for-print { display: none; }
+}
+
 .content-bg {
   fill: white;
   rx: 5px;
   ry: 5px;
 }
+
 .name {
   font-family: serif;
   letter-spacing: 0.5px;
@@ -43,5 +52,3 @@
 .school .label-text {
   letter-spacing: inherit
 }
-
-svg {margin: 15px}

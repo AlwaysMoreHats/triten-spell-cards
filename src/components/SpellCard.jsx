@@ -15,7 +15,8 @@ export default function SpellCard({
   range, duration,
   target, defense,
   effect,
-  school, page
+  school, page,
+  width, height
 }) {
   const svgWidth = 250
   const svgHeight = 350
@@ -91,7 +92,7 @@ export default function SpellCard({
   const pageContentX = pageBoxX + pageBoxWidth/2
   const pageContentY = pageBoxY + pageBoxHeight - 4
   return (
-    <svg className={`spell-card ${school.toLowerCase()}`} width={svgWidth} height={svgHeight}>
+    <svg className={`spell-card ${school.toLowerCase()}`} width={width} height={height} viewBox={`0 0 ${svgWidth} ${svgHeight}`}>
       <rect className='card-bg' width={svgWidth} height={svgHeight} rx='10' ry='10'/>
       {/*<rect className='content-bg' x={paddingSide} y={paddingTop} width={svgWidth-2*paddingSide} height={svgHeight-paddingTop-paddingBottom} rx='10' ry='10' />*/}
       <g className='level'>
@@ -172,4 +173,6 @@ SpellCard.propTypes = {
   effect: PropTypes.string,
   page: PropTypes.number,
   school: PropTypes.string,
+  width: PropTypes.number,
+  height: PropTypes.number,
 }

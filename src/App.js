@@ -81,9 +81,12 @@ const spellCardData = [{
   page: 153,
 }]
 
+const width = 240
+const height = width * 7 / 5
+
 class App extends Component {
   render() {
-    const cards = spellCardData.map(d => <SpellCard {...d} key={d.name + d.school}/>)
+    const cards = spellCardData.map(d => <SpellCard {...d} width={width} height={height} key={d.name + d.school}/>)
     return (
       <div className="App">
         {cards}
