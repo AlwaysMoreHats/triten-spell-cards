@@ -84,7 +84,7 @@ export default function SpellCard({
   const pageBoxX = svgWidth - paddingSide - pageBoxWidth
   const pageBoxY = svgHeight - paddingTop - pageBoxHeight
 
-  const pageLabelX = pageBoxX - labelPadding + 2
+  const pageLabelX = pageBoxX - labelPadding + 0
   const pageLabelY = pageBoxY + pageBoxHeight/2 + 2
 
   const pageContentSize = 6
