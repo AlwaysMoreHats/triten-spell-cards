@@ -1,26 +1,30 @@
-.spell-card.aeromancy .card-bg { fill: #aeb7c9; }
-.spell-card.aeromancy .label-text { fill: #f2f3f6; }
+.aeromancy .card-bg { fill: #aeb7c9; }
+.aeromancy .label-text { fill: #f2f3f6; }
 
-.spell-card.divination .card-bg { fill: Plum; }
-.spell-card.divination .label-text { fill: RebeccaPurple; }
+.divination .card-bg { fill: Plum; }
+.divination .label-text { fill: RebeccaPurple; }
 
-.spell-card.druidism .card-bg { fill: #649d5b; }
-.spell-card.druidism .label-text { fill: #f6feec; }
+.druidism .card-bg { fill: #649d5b; }
+.druidism .label-text { fill: #f6feec; }
 
-.spell-card.geomancy .card-bg { fill: #8c483d; }
-.spell-card.geomancy .label-text { fill: #f1d2cc; }
+.geomancy .card-bg { fill: #8c483d; }
+.geomancy .label-text { fill: #f1d2cc; }
 
-.spell-card.necromancy .card-bg { fill: #3f3e65; }
-.spell-card.necromancy .label-text { fill: #f0f6fd; }
+.necromancy .card-bg { fill: #3f3e65; }
+.necromancy .label-text { fill: #f0f6fd; }
 
-.spell-card.sorcery .card-bg { fill: #5379c6; }
-.spell-card.sorcery .label-text { fill: #f0faff; }
+.sorcery .card-bg { fill: #5379c6; }
+.sorcery .label-text { fill: #f0faff; }
 
-.spell-card.thaumaturgy .card-bg { fill: #f5de8d; }
-.spell-card.thaumaturgy .label-text { fill: #cb8427; }
+.thaumaturgy .card-bg { fill: #f5de8d; }
+.thaumaturgy .label-text { fill: #cb8427; }
 
 svg {
   margin: 1px 1px -3px 1px;
+}
+
+.controls {
+  width: 100%
 }
 
 @media print {
