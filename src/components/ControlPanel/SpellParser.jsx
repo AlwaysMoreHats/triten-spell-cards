@@ -20,7 +20,7 @@ export default class SpellParser extends Component {
     super(props)
     this.state = {
       school: schools[0],
-      page: 107,
+      page: '107',
       source: ''
     }
   }
