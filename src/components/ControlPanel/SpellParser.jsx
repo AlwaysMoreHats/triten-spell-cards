@@ -55,8 +55,8 @@ export default class SpellParser extends Component {
   }
 
   render() {
-    const { school, page, source } = this.state
-    const options = schools.map(s => <option value={s}>{s}</option>)
+    const { school, page } = this.state
+    const options = schools.map(s => <option value={s} key={s}>{s}</option>)
 
     const update = field => e => this.setState({ [field]: e.target.value })
 

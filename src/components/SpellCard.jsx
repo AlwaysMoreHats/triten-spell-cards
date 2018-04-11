@@ -1,15 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-function makeOpenBox(title, data) {
-  return (
-    <div className={title.toLowerCase()}>
-      <span className='box-title'>{title}</span>
-      <div className='content'>{data}</div>
-    </div>
-  )
-}
-
 export default function SpellCard({
   name, level, mp,
   range, duration,
