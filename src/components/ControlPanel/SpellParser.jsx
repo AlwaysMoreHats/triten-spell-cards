@@ -41,7 +41,7 @@ export default class SpellParser extends Component {
 
     //find special text, if it exists
     const special = rows.findIndex(r => r.match(/^Special: /))
-    if(special) rows.splice(special)
+    if(special > -1) rows.splice(special)
 
     const effect = rows.join(' ').substring('Effect: '.length)
 
