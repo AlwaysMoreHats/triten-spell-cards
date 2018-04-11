@@ -8,11 +8,14 @@ export default function ControlPanel({
 }) {
   const addSpell = spell => {
     const newData = spellData.slice()
-    if(!newData.find(s => s.name === spell.name && s.school === spell.school )) {
+
+    const existingSpell = newData.find(s => s.name === spell.name && s.school === spell.school)
+    if(!existingSpell) {
       newData.push(spell)
     } else {
-      console.warn(`duplicate spell "${spell.school}/${spell.name}" added`)
+      Object.assign(existingSpell, spell)
     }
+
     onChange(newData)
   }
 
