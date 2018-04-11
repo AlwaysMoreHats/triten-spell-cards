@@ -155,14 +155,14 @@ export default function SpellCard({
 
 SpellCard.propTypes = {
   name: PropTypes.string,
-  level: PropTypes.number,
-  mp: PropTypes.number,
+  level: PropTypes.string,
+  mp: PropTypes.string,
   range: PropTypes.string,
   duration: PropTypes.string,
   target: PropTypes.string,
   defense: PropTypes.string,
   effect: PropTypes.string,
-  page: PropTypes.number,
+  page: PropTypes.string,
   school: PropTypes.string,
   width: PropTypes.number,
   height: PropTypes.number,
