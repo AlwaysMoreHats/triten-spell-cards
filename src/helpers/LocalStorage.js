@@ -1,3 +1,6 @@
-const saveSpellData = jsonString => localStorage.setItem('spellData', jsonString)
+const SPELL_DATA = 'spellData'
 
-export { saveSpellData }
+const saveSpellData = jsonString => localStorage.setItem(SPELL_DATA, jsonString)
+const getSpellData = () => localStorage.getItem(SPELL_DATA)
+
+export { getSpellData, saveSpellData }
