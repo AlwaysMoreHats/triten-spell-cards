@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import SpellParser from './ControlPanel/SpellParser'
+import JsonIo from './ControlPanel/JsonIo'
 
 export default function ControlPanel({
   spellData, onChange
@@ -18,6 +19,7 @@ export default function ControlPanel({
   return (
     <div className='hide-for-print controls'>
       <SpellParser onSubmit={addSpell} />
+      <JsonIo data={spellData} onSubmit={onChange} />
     </div>
   )
 }
