@@ -3,6 +3,8 @@ import PropTypes from 'prop-types'
 import SpellParser from './ControlPanel/SpellParser'
 import JsonIo from './ControlPanel/JsonIo'
 
+import './ControlPanel/ControlPanel.css'
+
 export default function ControlPanel({
   spellData, onChange
 }) {

@@ -1,0 +1,60 @@
+.controls {
+  padding: 15px;
+  width: 402px;
+  margin: 0 auto;
+}
+
+.controls div {
+  margin-bottom: 5px;
+}
+
+p.title {
+  margin-bottom: 0;
+}
+
+.label {
+  display: inline-block;
+  width: 65px;
+  margin-right: 10px;
+  text-align: right;
+}
+
+.input {
+  width: 110px;
+}
+
+/* selects have some weird sizing issue on chrome/windows */
+select.input {
+  width: 114px;
+}
+
+.large-input {
+  width: 185px;
+  height: 80px;
+}
+
+button.submit {
+  width: 185px;
+  margin-left: 3px;
+}
+
+.json {
+  margin-top: 20px;
+  width: 402px;
+}
+
+.json-input {
+  font-size: 16px;
+  width: 191px;
+  display: inline-block;
+}
+
+.json-input + .json-input {
+  margin-left: 20px;
+}
+
+h1.section-heading {
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+}

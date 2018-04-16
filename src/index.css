@@ -2,4 +2,16 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: #CCC;
+}
+
+#root {
+  margin: 0 auto;
+  padding: 0 30px;
+  width: 726px;
+  background-color: white;
+}
+
+@media print {
+  #root { padding: 0; }
 }
