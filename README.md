@@ -74,7 +74,9 @@ his. Duo in dicunt vivendum contentiones. Dictas honestatis
 est no, ad vim ferri nonumy possim. Eum legere ignota
 moderatius ei, vel id vide vitae. Duo errem tamquam in,
 zril facilisis at mel.
+```
 
+```
 SAMPLE SPELL II
 Level: 7
 MP Cost: 14
@@ -91,7 +93,9 @@ ne. Mutat prompta ius no, eos dicant prodesset
 mnesarchum ad.
 Special: This text will intentionally not
 be displayed.
+```
 
+```
 SAMPLE SPELL III
 Level: 5
 MP Cost: 7
@@ -103,7 +107,9 @@ Effect: Ne tale omittam lobortis nec. Malis novum vivendum
 eum id, sea ea audire oporteat. Cu elitr mandamus evertitur
 vis, vis soluta democritum efficiantur ea. At maiorum
 pericula cum. Oportere constituto ne sea.
+```
 
+```
 SAMPLE SPELL IV
 Level: 7
 MP Cost: 12
