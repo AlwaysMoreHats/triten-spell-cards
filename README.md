@@ -3,6 +3,8 @@
 This is a spell card generator for the tabletop RPG [Triten](https://www.fenrispublishing.com/triten.php).
 This tool is currently in ALPHA and still being developed.
 
+[Live Demo](https://alwaysmorehats.github.io/triten-spell-cards/)
+
 I purposefully do not include any spell card information out of respect for the development team and
 their design efforts. This tool expects you to have the PDF to create your own spell cards. If you
 are interested in trying it, I have included some sample spells at the bottom of this document for
@@ -20,7 +22,7 @@ you to see how it works.
   * Click the "Save JSON" button to save your current data in local storage
   * This way you don't have to keep a copy of the JSON around.
 
-## How to Run
+## How to Run Locally
 
 You need to have [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git),
 [Node](https://nodejs.org/en/download/current/), and [NPM](https://www.npmjs.com/get-npm)
