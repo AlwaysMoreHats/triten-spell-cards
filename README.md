@@ -58,3 +58,64 @@ To find your version, run `node -v` and `npm -v`
   * You can kind of do this already. If you enter a spell with the same name and school, it updates
     the information of the matching spell.
 * Card border toggle from rounded corners to straight corners
+
+## Sample spells
+
+```
+SAMPLE SPELL I
+Level: 4
+MP Cost: 6
+Range: 50 feet
+Duration: Instant
+Target: 1 target
+Defense: Psychology
+Effect: Lorem ipsum dolor sit amet, ex laoreet delicatissimi
+his. Duo in dicunt vivendum contentiones. Dictas honestatis
+est no, ad vim ferri nonumy possim. Eum legere ignota
+moderatius ei, vel id vide vitae. Duo errem tamquam in,
+zril facilisis at mel.
+
+SAMPLE SPELL II
+Level: 7
+MP Cost: 14
+Range: N/A
+Duration: Sustained
+Target: Self
+Defense: N/A
+Effect: Debet deseruisse sed an, mel ei probo laudem. Eu
+clita minimum postulant duo, sea nostrud omnesque
+constituto te, te natum democritum qui. Fierent electram
+abhorreant est no, minim veniam rationibus ius eu, eu
+viris tractatos pri. Duo altera partiendo delicatissimi
+ne. Mutat prompta ius no, eos dicant prodesset
+mnesarchum ad.
+Special: This text will intentionally not
+be displayed.
+
+SAMPLE SPELL III
+Level: 5
+MP Cost: 7
+Range: 50 feet
+Duration: Instant
+Target: 1 target
+Defense: Block, Dodge
+Effect: Ne tale omittam lobortis nec. Malis novum vivendum
+eum id, sea ea audire oporteat. Cu elitr mandamus evertitur
+vis, vis soluta democritum efficiantur ea. At maiorum
+pericula cum. Oportere constituto ne sea.
+
+SAMPLE SPELL IV
+Level: 7
+MP Cost: 12
+Range: 50 feet
+Duration: 3 rounds
+Target: Sphere (25 feet)
+Defense: N/A
+Effect: Et has assueverit scriptorem. At viris molestiae
+scribentur quo. Vel partem omnesque salutatus te, duo tota
+percipitur consequuntur ei, et quas tantas cum. No sumo
+etiam habemus nec, his stet iudico percipitur eu. Eam iusto
+adversarium ei. Justo electram erroribus sed ad, cu sea
+mollis legendos intellegam. Ad congue regione sit, tritani
+quaeque luptatum an nec.
+```
