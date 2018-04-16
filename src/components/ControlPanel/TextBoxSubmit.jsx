@@ -15,7 +15,9 @@ export default function TextBoxSubmit({buttonText, className, data, onSubmit, re
   return (
     <div className={className}>
       <textarea className='large-input' {...textAreaData} ref={textInput} />
-      <button className='submit' onClick={() => onSubmit(textInput.current.value)}>{buttonText}</button>
+      <button className='submit' onClick={() => onSubmit(textInput.current.value)}>
+        {buttonText}
+      </button>
     </div>
   )
 }

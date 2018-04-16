@@ -1,6 +1,15 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+/* NOTE: For anyone reviewing this code: yeah, this is kind of a mess.
+ * I thought about having separate components for the sections, but there was a lot of
+ * shared placement calculations that each one would have needed. Beyond that, none of
+ * the components behave quite the same, so it's difficult to make anything on here a
+ * generic component to use in more than one location. Sorry that it's a mess, hopefully
+ * you can follow along anyway.
+ */
+
+
 export default function SpellCard({
   name, level, mp,
   range, duration,
@@ -82,10 +91,13 @@ export default function SpellCard({
   const pageContentSize = 6
   const pageContentX = pageBoxX + pageBoxWidth/2
   const pageContentY = pageBoxY + pageBoxHeight - 4
+
+
+  // NOTE: I left the SVG purposly wide, because it's even worse if it's been shortened like elsewhere.
   return (
     <svg className={`spell-card ${school.toLowerCase()}`} width={width} height={height} viewBox={`0 0 ${svgWidth} ${svgHeight}`}>
       <rect className='card-bg' width={svgWidth} height={svgHeight} rx='10' ry='10'/>
-      {/*<rect className='content-bg' x={paddingSide} y={paddingTop} width={svgWidth-2*paddingSide} height={svgHeight-paddingTop-paddingBottom} rx='10' ry='10' />*/}
+      
       <g className='level'>
         <rect className='content-bg' x={paddingSide} y={paddingTop} width={boxSize} height={boxSize} />
         <text className='label-text' transform={`translate(${levelLabelX},${topRowLabelY})rotate(90)`} textAnchor='middle' fontSize={labelSize}>LV</text>

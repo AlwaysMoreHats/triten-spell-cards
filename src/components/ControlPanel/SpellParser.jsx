@@ -13,7 +13,9 @@ const schools = [
 
 const isRomanNumeral = w => w.match(/^[IV]+$/)
 
-const fixNameCase = name => name.split(' ').map(w => isRomanNumeral(w) ? w : w[0] + w.substring(1).toLowerCase()).join(' ')
+const fixNameCase = name => name
+  .split(' ')
+  .map(w => isRomanNumeral(w) ? w : w[0] + w.substring(1).toLowerCase()).join(' ')
 
 export default class SpellParser extends Component {
   constructor(props) {
@@ -64,20 +66,31 @@ export default class SpellParser extends Component {
       <div className='parser'>
         <div className='school-select'>
           <span className='label'>School: </span>
-          <select className='input' name='school' value={school} onChange={update('school')}>
+          <select
+            className='input' name='school'
+            value={school} onChange={update('school')}
+          >
             {options}
           </select>
         </div>
         <div className='page'>
           <span className='label'>Page #: </span>
-          <input className='input' type='number' name='page' value={page} onChange={update('page')}/>
+          <input
+            className='input' type='number' name='page'
+            value={page} onChange={update('page')}
+          />
         </div>
         <div className='pdf-source'>
           <p className='title'>PDF Source Text</p>
-          <textarea className='large-input' name='source' onChange={update('source')} />
+          <textarea
+            className='large-input' name='source'
+            onChange={update('source')}
+          />
         </div>
         <div className='submit'>
-          <button className='submit' onClick={() => this.parse()}>Parse</button>
+          <button className='submit' onClick={() => this.parse()}>
+            Parse
+          </button>
         </div>
       </div>
     )

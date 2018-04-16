@@ -11,7 +11,9 @@ export default function ControlPanel({
   const addSpell = spell => {
     const newData = spellData.slice()
 
-    const existingSpell = newData.find(s => s.name === spell.name && s.school === spell.school)
+    const existingSpell = newData
+      .find(s => s.name === spell.name && s.school === spell.school)
+
     if(!existingSpell) {
       newData.push(spell)
     } else {

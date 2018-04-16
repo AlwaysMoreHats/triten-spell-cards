@@ -6,6 +6,7 @@ import { getSpellData } from './helpers/LocalStorage'
 
 const width = 240
 const height = width * 7 / 5
+const cardDimensions = { width, height }
 
 const spellCardSort = (cardA, cardB) => {
   const schoolA = cardA.school
@@ -38,11 +39,16 @@ class App extends Component {
 
   render() {
     const spellData = this.state.spellData.map(s => Object.assign({}, s))
-    const cards = spellData.map(d => <SpellCard {...d} width={width} height={height} key={d.name + d.school}/>)
+    const cards = spellData.map(
+      d => <SpellCard {...d} {...cardDimensions} key={d.name + d.school}/>
+    )
 
     return (
       <div className="App">
-        <ControlPanel spellData={spellData} onChange={spellData => this.updateSpellData( spellData ) } />
+        <ControlPanel
+          spellData={spellData}
+          onChange={spellData => this.updateSpellData( spellData ) }
+        />
         {cards}
       </div>
     );
